@@ -1,2 +1,9 @@
 server:
   port:  8082
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/pruebamsm?currentSchema=seguridad
+    username: postgres
+    password: bsarango
+    driverClassName: org.postgresql.Driver
