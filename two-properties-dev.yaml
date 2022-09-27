@@ -1,2 +1,8 @@
 server:
   port:  8083
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/pruebamsm?currentSchema=santamaria
+    username: postgres
+    password: bsarango
+    driverClassName: org.postgresql.Driver
